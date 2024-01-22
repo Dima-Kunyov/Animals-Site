@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{ /*універсальний тег щоб сайт нормально виглядав */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------КРИША НА##Й--------------------------------------------------------------------------- */
+
+.header{
+    border: 1px solid var(--main-color);
+    width: 1600px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+:root{
+    --main-color: #69724F;
+}
+
+.header-wrap{
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.container{
+    margin: 0 auto;
+    color: var(--main-color);
+}
+
+.logo-wrap{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-wrap{
+    gap: 47px;
+}
+
+.nav-menu{
+    align-items: center;
+}
+
+.menu>li>a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666363;
+}
+
+.menu{
+    gap: 47px;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666363;
+}
+
+/* ----------------------------------------------ОБЩИЕ НА##Й--------------------------------------------------------------------------- */
+
+
+
+.btn{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 25px;
+    font-family: 'Lora', sans-serif;
+}
+
+.btn-primary{
+    background-color: var(--main-color);
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    color: #F5F5F5;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 70px;
+    font-family: 'Lora', sans-serif;
+}
+/* ----------------------------------------------MAIN-1 НА##Й--------------------------------------------------------------------------- */
+
+.container-main1{
+    width: 1600px;
+    margin: 0 auto;
+    color: var(--main-color);
+}
+
+.main-1{
+    background-image: url(./images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: color;
+    height: 900px;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 202px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 81px;
+    font-weight: 700;
+    margin-top: 60px;
+    width: 310px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+}
+
+.banner-wrap{
+    gap:92px
+}
+
+.main-1-border{
+    background-color: var(--main-color);
+    width: 1098px;
+    height: 90px;
+    margin-top: 70px;
+}
+
+.text-main-1-border{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #F5F5F5;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    font-family: 'Lora', sans-serif;
+}
+
+/* ----------------------------------------------MAIN-2 НА##Й--------------------------------------------------------------------------- */
+
+.container-main-2{
+    width: 1600px;
+    margin-top: 90px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main-2-sec{
+    margin-top: 90px;
+}
+
+.text-main-2{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+    width: 359px;
+    margin-left: 620px;
+    font-family: 'Lora', sans-serif;
+}
+
+
+.hr-2{
+    width: 200px;
+    margin-left: 699px;
+    color: #69724F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.super-card{
+    gap: 45px;
+    margin-left: 119px;
+}
+
+.card{
+    list-style: none;
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666363;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 45px;
+}
+
+.card-h4-main-2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #121212;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lora', sans-serif;
+}
+
+/* .li-2{
+    width: 300px;
+    height: 484px;
+    gap: 45px;
+} */
+
+.cl-p1{
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 300px;
+}
+/* ----------------------------------------------MAIN-3 НА##Й--------------------------------------------------------------------------- */
+
+.main-3{
+    width: 1600px;
+    margin-top: 90px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 76px;
+
+}
+
+.donate-main-3{
+    background-image: url(./images/Rectangle\ 13.png);
+    text-align: center;
+    height: 408px;
+}
+
+.card-h4-main-3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #121212;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lora', sans-serif;
+}
+
+.img-main-3{
+    margin-left: 100px;
+}
+
+
+/* ----------------------------------------------MAIN-last НА##Й--------------------------------------------------------------------------- */
+
+.main-last{
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.helpplanet-main{
+    width: 1600px;
+    height: 90px;
+    background-color: #69724F;
+    margin: 0 auto;
+    /* text-align: center;
+    align-items: center; */
+    /* margin-left: 699px;
+    margin-top: 15px; */
+    padding-left: 610px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.mg-0-auto{
+    margin: 0 auto;
+}
+
+.text-main-animals{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.div-last-in{
+    width: 1400px;
+    height: 360px;
+}
+
+.text-last-in-main{
+    border: 1px solid #69724F;
+    margin-left: 100px;
+    width: 700px;
+}
+
+.cl-p2{
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    width: 680px;
+    color: #666363;
+    margin-left: 20px;
+}
+
+.card-h4-main-last{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #121212;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lora', sans-serif;
+    
+}
+
+/* ----------------------------------------------FOOOOOOOOTER НА##Й--------------------------------------------------------------------------- */
+
+.frfooter{
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.ulfooter{
+    gap: 30px;
+    list-style: none;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    /* margin-left: 442px; */
+    
+}
+
+.lifooter{
+    border: 1px solid #69724F;
+    width: 219px;
+    height: 62px;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-footer-btn{
+    width: 30px;
+    height: 30px;
+    /* justify-content: center;
+    text-align: center; */
+}
+
+
+ .text-footer{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+} 
+
+
+.btn-footer{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 21px;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-footer{
+    margin-left: 241px;
+}
+
+.helpplanet-footer{
+    width: 1600px;
+    height: 50px;
+    background-color: #69724F;
+    margin: 0 auto;
+    /* text-align: center;
+    align-items: center; */
+    /* margin-left: 699px;
+    margin-top: 15px; */
+
+    padding-left: 696px;
+    padding-top: 15px;
+}
+
+
+h3{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+}
